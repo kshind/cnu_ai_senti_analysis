@@ -62,4 +62,5 @@ print(f'뉴스 제목: {title}')
 content = ''
 for line in contents:  # 순서대로 <p>를 가져와서 Line에 넣고 다음 코드 실행
     content += line.get_text()
-print(f'뉴스본문: {content}')
+print(f'뉴스 본문: {content}')
+
